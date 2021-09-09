@@ -1,6 +1,6 @@
 const newsItems = [
     {
-        img: '/assets/dyn_images/mic-unsplash.jpg',
+        img: 'mic-unsplash.jpg',
         alt: 'microphone',
         title: "Open Mic Night this and every Wednesday",
         date: "Aug. 19 2021",
@@ -8,7 +8,7 @@ const newsItems = [
         id: 1
     },
     {
-        img: '/assets/dyn_images/bookstack-unsplash.jpg',
+        img: 'bookstack-unsplash.jpg',
         alt: 'bookstack',
         title: "New Arrivals",
         date: "Aug. 25 2021",
@@ -16,7 +16,7 @@ const newsItems = [
         id: 2
     },
     {
-        img: '/assets/dyn_images/opensign-unsplash.jpg',
+        img: 'opensign-unsplash.jpg',
         alt: 'open sign',
         title: "Cafe Reopened",
         date: "Sep. 1 2021",
