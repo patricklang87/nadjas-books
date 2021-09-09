@@ -1,0 +1,57 @@
+.News {
+    color: white;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.NewsBox {
+    display: flex;
+    flex-wrap: none;
+    left: -500px;
+    position: relative;
+    transition: left 500ms ease-in-out;
+}
+
+.NewsItem {
+    width: 100vw;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NewsItem img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.NewsScroller {
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrollerButton {
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-color 250ms ease-in-out;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .NewsItem div{
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .NewsItem img {
+        width: 50%;
+        height: 100%;
+    }
+  }
+

@@ -1,0 +1,21 @@
+#contact {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+#contact {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#contact input,
+#contact textarea {
+    margin: 5px;
+    text-align: right;
+
+}

@@ -1,0 +1,50 @@
+#about {
+    margin-top: 50px;
+    clip-path: polygon(0 8%, 100% 0, 100% 98%, 0 90%);
+    background-color: white;
+}
+
+#about img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    margin: none;
+  }
+
+.aboutImg1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.aboutImg2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+
+
+
+  @media only screen and (min-width: 725px) {
+    #about {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    #about div{
+      width: 33.3%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .aboutImg1 {
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+    }
+
+    .aboutImg2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+    }
+
+
+  }

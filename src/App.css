@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins&display=swap');
+
+body{ 
+  background-color: black;
+  margin: 0;
+}
+
+ h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3, h4 {
+  font-family: 'Pacifico', cursive;
+
+}
+
+p, span, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+li a {
+  display: inline;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.textDiv {
+  background-color: white;
+  padding-top: 40px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.section img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  main {
+    top: 47px;
+  }
+
+  .textDiv {
+    padding-top: 0;
+  }
+
+  .section div{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+

@@ -1,0 +1,15 @@
+
+.footer {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+}
+
+.footer p {
+    margin: 0;
+    padding-right: 0;
+}
