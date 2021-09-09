@@ -12,7 +12,7 @@ const newsItems = [
         alt: 'bookstack',
         title: "New Arrivals",
         date: "Aug. 25 2021",
-        text: "We have new titles available from Johnathan Franzen, Carol Anderson, Kuzuo Ishiguro and other popular authors.",
+        text: "We have new titles available from Johnathan Franzen, Carol Anderson, Kazuo Ishiguro and other popular authors.",
         id: 2
     },
     {
