@@ -3,7 +3,7 @@ import img from '../../images/bookstack-unsplash.jpg'
 
 
 export default function NewsItem({item}) {
-    const image = require(`../../images/${item.img}`);
+    const image = require(`/nadjas-books/static/media/${item.img}`);
 
     return (
         <div className="NewsItem">
