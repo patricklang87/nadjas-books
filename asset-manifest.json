@@ -1,32 +1,31 @@
 {
   "files": {
     "main.css": "/nadjas-books/static/css/main.3f77d221.chunk.css",
-    "main.js": "/nadjas-books/static/js/main.1866512a.chunk.js",
-    "main.js.map": "/nadjas-books/static/js/main.1866512a.chunk.js.map",
-    "runtime-main.js": "/nadjas-books/static/js/runtime-main.ef48163d.js",
-    "runtime-main.js.map": "/nadjas-books/static/js/runtime-main.ef48163d.js.map",
-    "static/js/2.aa4367e2.chunk.js": "/nadjas-books/static/js/2.aa4367e2.chunk.js",
-    "static/js/2.aa4367e2.chunk.js.map": "/nadjas-books/static/js/2.aa4367e2.chunk.js.map",
-    "static/js/3.1b534ed3.chunk.js": "/nadjas-books/static/js/3.1b534ed3.chunk.js",
-    "static/js/3.1b534ed3.chunk.js.map": "/nadjas-books/static/js/3.1b534ed3.chunk.js.map",
+    "main.js": "/nadjas-books/static/js/main.27f98a0b.chunk.js",
+    "main.js.map": "/nadjas-books/static/js/main.27f98a0b.chunk.js.map",
+    "runtime-main.js": "/nadjas-books/static/js/runtime-main.1db1ce73.js",
+    "runtime-main.js.map": "/nadjas-books/static/js/runtime-main.1db1ce73.js.map",
+    "static/js/2.16f140a2.chunk.js": "/nadjas-books/static/js/2.16f140a2.chunk.js",
+    "static/js/2.16f140a2.chunk.js.map": "/nadjas-books/static/js/2.16f140a2.chunk.js.map",
+    "static/js/3.f2c66c6d.chunk.js": "/nadjas-books/static/js/3.f2c66c6d.chunk.js",
+    "static/js/3.f2c66c6d.chunk.js.map": "/nadjas-books/static/js/3.f2c66c6d.chunk.js.map",
     "index.html": "/nadjas-books/index.html",
     "static/css/main.3f77d221.chunk.css.map": "/nadjas-books/static/css/main.3f77d221.chunk.css.map",
-    "static/js/2.aa4367e2.chunk.js.LICENSE.txt": "/nadjas-books/static/js/2.aa4367e2.chunk.js.LICENSE.txt",
-    "static/media/East_Genesee_Street.jpg": "/nadjas-books/static/media/East_Genesee_Street.23550e63.jpg",
-    "static/media/East_Genesee_Street_Skaneateles.jpg": "/nadjas-books/static/media/East_Genesee_Street_Skaneateles.23550e63.jpg",
-    "static/media/bookstack-unsplash.jpg": "/nadjas-books/static/media/bookstack-unsplash.aaaa4dc1.jpg",
-    "static/media/coffee_1920.jpg": "/nadjas-books/static/media/coffee_1920.3f899169.jpg",
-    "static/media/mic-unsplash.jpg": "/nadjas-books/static/media/mic-unsplash.67032348.jpg",
-    "static/media/opensign-unsplash.jpg": "/nadjas-books/static/media/opensign-unsplash.e48d5f84.jpg",
-    "static/media/paolo-chiabrando-unsplash.jpg": "/nadjas-books/static/media/paolo-chiabrando-unsplash.49fd1c31.jpg",
-    "static/media/pj-accetturo-unsplash.jpg": "/nadjas-books/static/media/pj-accetturo-unsplash.b3a2513a.jpg",
-    "static/media/rod-long-unsplash.jpg": "/nadjas-books/static/media/rod-long-unsplash.0abd9b43.jpg",
-    "static/media/timothy-barlin-unsplash.jpg": "/nadjas-books/static/media/timothy-barlin-unsplash.435de3dc.jpg"
+    "static/js/2.16f140a2.chunk.js.LICENSE.txt": "/nadjas-books/static/js/2.16f140a2.chunk.js.LICENSE.txt",
+    "static/media/East_Genesee_Street.23550e63.jpg": "/nadjas-books/static/media/East_Genesee_Street.23550e63.jpg",
+    "static/media/coffee_1920.3f899169.jpg": "/nadjas-books/static/media/coffee_1920.3f899169.jpg",
+    "static/media/news1.67032348.jpg": "/nadjas-books/static/media/news1.67032348.jpg",
+    "static/media/news2.aaaa4dc1.jpg": "/nadjas-books/static/media/news2.aaaa4dc1.jpg",
+    "static/media/news3.e48d5f84.jpg": "/nadjas-books/static/media/news3.e48d5f84.jpg",
+    "static/media/paolo-chiabrando-unsplash.49fd1c31.jpg": "/nadjas-books/static/media/paolo-chiabrando-unsplash.49fd1c31.jpg",
+    "static/media/pj-accetturo-unsplash.b3a2513a.jpg": "/nadjas-books/static/media/pj-accetturo-unsplash.b3a2513a.jpg",
+    "static/media/rod-long-unsplash.0abd9b43.jpg": "/nadjas-books/static/media/rod-long-unsplash.0abd9b43.jpg",
+    "static/media/timothy-barlin-unsplash.435de3dc.jpg": "/nadjas-books/static/media/timothy-barlin-unsplash.435de3dc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef48163d.js",
-    "static/js/2.aa4367e2.chunk.js",
+    "static/js/runtime-main.1db1ce73.js",
+    "static/js/2.16f140a2.chunk.js",
     "static/css/main.3f77d221.chunk.css",
-    "static/js/main.1866512a.chunk.js"
+    "static/js/main.27f98a0b.chunk.js"
   ]
 }
