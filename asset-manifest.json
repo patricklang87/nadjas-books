@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/nadjas-books/static/css/main.3f77d221.chunk.css",
+    "main.js": "/nadjas-books/static/js/main.e700b7b2.chunk.js",
+    "main.js.map": "/nadjas-books/static/js/main.e700b7b2.chunk.js.map",
+    "runtime-main.js": "/nadjas-books/static/js/runtime-main.1db1ce73.js",
+    "runtime-main.js.map": "/nadjas-books/static/js/runtime-main.1db1ce73.js.map",
+    "static/js/2.16f140a2.chunk.js": "/nadjas-books/static/js/2.16f140a2.chunk.js",
+    "static/js/2.16f140a2.chunk.js.map": "/nadjas-books/static/js/2.16f140a2.chunk.js.map",
+    "static/js/3.f2c66c6d.chunk.js": "/nadjas-books/static/js/3.f2c66c6d.chunk.js",
+    "static/js/3.f2c66c6d.chunk.js.map": "/nadjas-books/static/js/3.f2c66c6d.chunk.js.map",
+    "index.html": "/nadjas-books/index.html",
+    "static/css/main.3f77d221.chunk.css.map": "/nadjas-books/static/css/main.3f77d221.chunk.css.map",
+    "static/js/2.16f140a2.chunk.js.LICENSE.txt": "/nadjas-books/static/js/2.16f140a2.chunk.js.LICENSE.txt",
+    "static/media/East_Genesee_Street.23550e63.jpg": "/nadjas-books/static/media/East_Genesee_Street.23550e63.jpg",
+    "static/media/coffee_1920.3f899169.jpg": "/nadjas-books/static/media/coffee_1920.3f899169.jpg",
+    "static/media/paolo-chiabrando-unsplash.49fd1c31.jpg": "/nadjas-books/static/media/paolo-chiabrando-unsplash.49fd1c31.jpg",
+    "static/media/pj-accetturo-unsplash.b3a2513a.jpg": "/nadjas-books/static/media/pj-accetturo-unsplash.b3a2513a.jpg",
+    "static/media/rod-long-unsplash.0abd9b43.jpg": "/nadjas-books/static/media/rod-long-unsplash.0abd9b43.jpg",
+    "static/media/timothy-barlin-unsplash.435de3dc.jpg": "/nadjas-books/static/media/timothy-barlin-unsplash.435de3dc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1db1ce73.js",
+    "static/js/2.16f140a2.chunk.js",
+    "static/css/main.3f77d221.chunk.css",
+    "static/js/main.e700b7b2.chunk.js"
+  ]
+}
