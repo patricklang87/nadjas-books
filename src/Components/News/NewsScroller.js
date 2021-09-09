@@ -21,6 +21,7 @@ export default function NewsScroller({newsItems, setCurrentItem, currentItem}) {
                 className="scrollerButton"
                 onClick={() => setCurrentItem(index)}
                 style={(index === currentItem) ? active : inactive}
+                key={'sb' + index}
             ></div>)
     });
 

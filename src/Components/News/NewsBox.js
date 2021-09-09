@@ -9,8 +9,6 @@ export default function NewsBox({ currentItem }) {
 
     const newsBoxPosition = window.innerWidth * currentItem * -1;
 
-    console.log(newsBoxWidth, newsBoxPosition);
-
     const newsBoxPositioning = {
         width: newsBoxWidth + 'px',
         left: newsBoxPosition + 'px'

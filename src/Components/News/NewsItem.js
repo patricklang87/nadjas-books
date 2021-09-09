@@ -14,8 +14,8 @@ export default function NewsItem({item}) {
         <div className="NewsItem">
             <img src={src} alt={item.alt} />
             <div className="newsText">
-                <h3>{item.title}</h3>
                 <p>{item.date}</p>
+                <h3>{item.title}</h3>
                 <p>{item.text}</p>
             </div>
         </div>
