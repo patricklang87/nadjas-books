@@ -36,7 +36,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <br />
-                    <h3 style={{margin: '0'}}>A project by <a href="https://patricklang87.github.io/portfolio_3D/" target="_blank" rel="noreferrer">Patrick Lang</a></h3>
+                    <h3 style={{margin: '0'}}>A project by <a href="https://langportfolio.herokuapp.com/" target="_blank" rel="noreferrer">Patrick Lang</a></h3>
                     <h3 style={{margin: '0'}}>&#169; 2021</h3>
                 </div>
             </div>
