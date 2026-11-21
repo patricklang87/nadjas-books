@@ -4,12 +4,37 @@
 
 ## Links
 
-- [Repo](https://github.com/patricklang87/nadjas-books/) 
+- [Live site](https://patricklang87.github.io/nadjas-books/)
+- [Repo](https://github.com/patricklang87/nadjas-books/)
 
+## Run the project
 
-## View the project
+```bash
+npm install
+npm start
+```
 
-- Upcoming
+The site opens at http://localhost:3000. It uses Create React App 4, so on Node 17+ `npm start` and `npm run build` need `NODE_OPTIONS=--openssl-legacy-provider`.
+
+To publish to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## Run the tests
+
+```bash
+npm test
+```
+
+React Testing Library tests cover:
+- every navigation link points to a section that exists on the page
+- the responsive navigation (full bar on wide screens, hamburger menu on narrow screens that closes after picking a link)
+- the news carousel (auto-advances every 6 seconds, wraps around, and jumps to an item from its scroller button)
+- the demo contact form's thank-you state
+
+Tests run on every push and pull request via GitHub Actions.
 
 ## Built with
 
@@ -19,6 +44,7 @@
 - React
 - Node
 - NPM
+- Jest, React Testing Library
 
 ## 3rd Party APIs
 
