@@ -9,7 +9,7 @@ export default function Books() {
                     <p>Nadja's offers a wide selection of used books. Explore our general section while sipping a hot beverage, or visit Margaret in the back of the house, where we keep our carefully curated selection of antiquariat books.</p>
             </div>
             <div>
-                <img src={bookshop} alt="bookshop" />
+                <img src={bookshop} alt="Shelves of books inside the bookshop" />
                 
             </div>
         </div>

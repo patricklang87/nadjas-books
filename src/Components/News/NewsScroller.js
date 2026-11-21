@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 
-export default function NewsScroller({newsItems, setCurrentItem, currentItem}) {
+export default function NewsScroller({newsItems, setCurrentItem, currentItem, paused}) {
 
     const scrollerButtonWidth = (window.innerWidth / newsItems.length) - 5;
 
@@ -17,12 +17,15 @@ export default function NewsScroller({newsItems, setCurrentItem, currentItem}) {
 
     const scrollerButtons = newsItems.map((item, index) => {
         return (
-            <div
+            <button
+                type="button"
                 className="scrollerButton"
                 onClick={() => setCurrentItem(index)}
                 style={(index === currentItem) ? active : inactive}
+                aria-label={`Show news item ${index + 1} of ${newsItems.length}: ${item.title}`}
+                aria-current={index === currentItem ? 'true' : undefined}
                 key={'sb' + index}
-            ></div>)
+            ></button>)
     });
 
     const advanceSlideShow = () => {
@@ -34,6 +37,7 @@ export default function NewsScroller({newsItems, setCurrentItem, currentItem}) {
     }
 
     useEffect(() => {
+        if (paused) return undefined;
         const advancer = setInterval(advanceSlideShow,  6000);
         return () => clearInterval(advancer);
     })

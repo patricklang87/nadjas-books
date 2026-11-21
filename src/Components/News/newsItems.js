@@ -1,7 +1,7 @@
 const newsItems = [
     {
         img: 'mic-unsplash.jpg',
-        alt: 'microphone',
+        alt: 'A microphone on a stage',
         title: "Open Mic Night this and every Wednesday",
         date: "Aug. 19 2021",
         text: "Come join us for our weekly open mic night, every Wednesday night at 7PM. ",
@@ -9,7 +9,7 @@ const newsItems = [
     },
     {
         img: 'bookstack-unsplash.jpg',
-        alt: 'bookstack',
+        alt: 'A stack of books',
         title: "New Arrivals",
         date: "Aug. 25 2021",
         text: "We have new titles available from Johnathan Franzen, Carol Anderson, Kazuo Ishiguro and other popular authors.",
@@ -17,7 +17,7 @@ const newsItems = [
     },
     {
         img: 'opensign-unsplash.jpg',
-        alt: 'open sign',
+        alt: 'An "Open" sign in a shop window',
         title: "Cafe Reopened",
         date: "Sep. 1 2021",
         text: "Our Cafe is open again after renovations. There is plenty of seating, so come by and and enjoy the new tiled decor.",

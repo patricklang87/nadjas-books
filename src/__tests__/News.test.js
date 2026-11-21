@@ -35,12 +35,48 @@ describe('News slideshow', () => {
 
   it('jumps to an item when its scroller button is clicked', () => {
     const { container } = render(<News />);
-    const buttons = container.querySelectorAll('.scrollerButton');
+    const buttons = screen.getAllByRole('button', { name: /^Show news item/ });
     expect(buttons).toHaveLength(newsItems.length);
 
     userEvent.click(buttons[2]);
+    expect(buttons[2]).toHaveAttribute('aria-current', 'true');
     expect(position(container)).toBe(offset(2));
     expect(buttons[2]).toHaveStyle({ backgroundColor: 'white' });
     expect(buttons[0]).toHaveStyle({ backgroundColor: 'grey' });
+  });
+});
+
+describe('News slideshow controls', () => {
+  beforeEach(() => jest.useFakeTimers());
+  afterEach(() => {
+    cleanup();
+    jest.useRealTimers();
+  });
+
+  it('can be paused and resumed', () => {
+    const { container } = render(<News />);
+    userEvent.click(screen.getByRole('button', { name: 'Pause slideshow' }));
+    act(() => jest.advanceTimersByTime(12000));
+    expect(position(container)).toBe(offset(0));
+
+    userEvent.click(screen.getByRole('button', { name: 'Play slideshow' }));
+    act(() => jest.advanceTimersByTime(6000));
+    expect(position(container)).toBe(offset(1));
+  });
+
+  it('starts paused when the user prefers reduced motion', () => {
+    window.matchMedia = jest.fn().mockReturnValue({ matches: true });
+    const { container } = render(<News />);
+    act(() => jest.advanceTimersByTime(12000));
+    expect(position(container)).toBe(offset(0));
+    expect(screen.getByRole('button', { name: 'Play slideshow' })).toBeInTheDocument();
+    delete window.matchMedia;
+  });
+
+  it('hides off-screen slides from screen readers', () => {
+    const { container } = render(<News />);
+    const slides = container.querySelectorAll('.NewsItem');
+    expect(slides[0]).toHaveAttribute('aria-hidden', 'false');
+    expect(slides[1]).toHaveAttribute('aria-hidden', 'true');
   });
 });

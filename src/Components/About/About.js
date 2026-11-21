@@ -7,7 +7,7 @@ export default function About() {
     return (
         <div id="about">
             <div >
-                <img className="aboutImg1" src={bookshopSign} alt="Books Sign" />
+                <img className="aboutImg1" src={bookshopSign} alt="A sign reading Books" />
             </div>
 
             <div >
@@ -15,7 +15,7 @@ export default function About() {
                 <p>At Nadja's you can sip our delicious fair-trade, single-origin coffee while you browse, relax or work.</p>
             </div>
             <div>
-                <img className="aboutImg2" src={coffeeSign} alt="Coffee Sign" />
+                <img className="aboutImg2" src={coffeeSign} alt="A sign reading Coffee" />
             </div>
             
 
