@@ -4,14 +4,14 @@ import news2 from '../../images/news2.jpg';
 import news3 from '../../images/news3.jpg';
 
 
-export default function NewsItem({item}) {
+export default function NewsItem({item, hidden}) {
     let src;
     if (item.id === 1) src = news1;
     if (item.id === 2) src = news2;
     if (item.id === 3) src = news3;
 
     return (
-        <div className="NewsItem">
+        <div className="NewsItem" role="group" aria-roledescription="slide" aria-label={item.title} aria-hidden={hidden}>
             <img src={src} alt={item.alt} />
             <div className="newsText">
                 <p>{item.date}</p>

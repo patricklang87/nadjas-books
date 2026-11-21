@@ -26,10 +26,10 @@ export default function Contact() {
 
     const SentMsg = () => {
         return (
-            <div>
+            <div role="status">
                 <p>Thank you for your message! We'll get back to you as soon as we can.</p>
                 <p style={{color: 'red'}}>(This is for demonstration purposes only. However, a messaging component can implemented here, for example through use of the JavaScript SMTP library.)</p>
-                <button onClick={() => setSent(false)}>
+                <button type="button" onClick={() => setSent(false)}>
                     Send Another
                 </button>
             </div>
@@ -40,15 +40,19 @@ export default function Contact() {
         return (
             <div >
                 <div style={{display: "block"}}>
-                    <input type="text" max="30" placeholder="Name" />
+                    <label className="visually-hidden" htmlFor="contact-name">Name</label>
+                    <input id="contact-name" type="text" max="30" placeholder="Name" autoComplete="name" />
                     <br />
-                    <input type="email" max="30" placeholder="Email" required />
+                    <label className="visually-hidden" htmlFor="contact-email">Email</label>
+                    <input id="contact-email" type="email" max="30" placeholder="Email" autoComplete="email" required />
                     <br />
-                    <input type="text" max="30" placeholder="Subject" />
+                    <label className="visually-hidden" htmlFor="contact-subject">Subject</label>
+                    <input id="contact-subject" type="text" max="30" placeholder="Subject" />
                     <br />
-                    <textarea placeholder="Hello!" max="25000" rows="7" cols="24" />
+                    <label className="visually-hidden" htmlFor="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Hello!" max="25000" rows="7" cols="24" />
                     <br />
-                    <button onClick={handleSend} >
+                    <button type="button" onClick={handleSend} >
                         Send
                     </button>
                 </div>      
